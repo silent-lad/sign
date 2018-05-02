@@ -9,21 +9,21 @@ svg {
 path {
   stroke: #000;
   fill: #000;
-  stroke-dasharray: 600;
+  stroke-dasharray: 500;
   opacity: 10;
-  animation: animate 3s ease-in-out;
+  animation: animate 4s linear;
 }
 
 @keyframes animate {
   0% {
     opacity: 0;
     fill: none;
-    stroke-dashoffset: 600;
+    stroke-dashoffset: 500;
   }
   30% {
     opacity: 10;
     fill: none;
-    stroke-dashoffset: 600;
+    stroke-dashoffset: 500;
   }
 
   90% {
