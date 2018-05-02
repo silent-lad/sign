@@ -1,0 +1,33 @@
+svg {
+  max-height: 100vh;
+}
+
+path {
+  stroke: #000;
+  fill: #000;
+  stroke-dasharray: 600;
+  opacity: 10;
+  animation: animate 3s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 600;
+  }
+  30% {
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 600;
+  }
+
+  90% {
+    fill: rgba(0, 0, 0, 0);
+  }
+  100% {
+    opacity: 10;
+    fill: rgba(0, 0, 0, 1);
+    stroke-dashoffset: 0;
+  }
+}
