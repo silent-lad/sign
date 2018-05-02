@@ -9,7 +9,7 @@ svg {
 path {
   stroke: #000;
   fill: #000;
-  stroke-dasharray: 500;
+  stroke-dasharray: 600;
   opacity: 10;
   animation: animate 4s linear;
 }
@@ -18,12 +18,12 @@ path {
   0% {
     opacity: 0;
     fill: none;
-    stroke-dashoffset: 500;
+    stroke-dashoffset: 600;
   }
   30% {
     opacity: 10;
     fill: none;
-    stroke-dashoffset: 500;
+    stroke-dashoffset: 600;
   }
 
   90% {
