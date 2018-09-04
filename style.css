@@ -1,5 +1,5 @@
 body{;
-  background-image: url('http://impactplus.deccansoft.com/wp-content/uploads/2018/03/background-1.jpg')
+  /*background-image: url('http://impactplus.deccansoft.com/wp-content/uploads/2018/03/background-1.jpg')*/
 }
 
 svg {
@@ -23,7 +23,7 @@ path {
   30% {
     opacity: 10;
     fill: none;
-    stroke-dashoffset: 600;
+    /*stroke-dashoffset: 600;*/
   }
 
   90% {
